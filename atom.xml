@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>template::carboxide</title>
+    <subtitle>This blog is about the daily life of John Doe.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://template.carboxide.3o14.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://template.carboxide.3o14.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-10-29T20:14:52+05:45</updated>
+    <id>https://template.carboxide.3o14.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Using this Setup</title>
+        <published>2025-10-29T20:14:52+05:45</published>
+        <updated>2025-10-29T20:14:52+05:45</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://template.carboxide.3o14.com/using-this-setup/"/>
+        <id>https://template.carboxide.3o14.com/using-this-setup/</id>
+        
+        <content type="html" xml:base="https://template.carboxide.3o14.com/using-this-setup/">&lt;p&gt;I basically have two personas here, one the writer me and another the commenter&#x2F;explainer me. [&lt;em&gt;Hey! that&#x27;s me!&lt;&#x2F;em&gt;] So, judging me entirely by this blog alone will be like judging a kid for making mistakes.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;interactions&quot;&gt;Interactions&lt;&#x2F;h2&gt;
+&lt;p&gt;Blabbering in the wind just doesn&#x27;t cut it for a learning process. This might calm me down but it wont give me clarity. I might get clarity by researching things by myself but I want a natural approach. Someone envisioned that communnications in the web can also be decentralized as well as interactive and drafted the concept of webmentions, and that resonated with me. As opposed to communicating via a social media being limited to their visual design, I wanted something that had structure but still can be personalized.&lt;&#x2F;p&gt;
+&lt;p&gt;I decided to make this into a template and not just my personal site because I found out that there aren&#x27;t many people who use webmentions as a form of communication. And if there are, they aren&#x27;t someone who would interact to my silly ramblings. Also, this site is heavily inspired by &lt;a href=&quot;https:&#x2F;&#x2F;manuelmoreale.com&#x2F;thoughts&#x2F;welcome-to-manus-website&quot;&gt;Manu&#x27;s&lt;&#x2F;a&gt; site because of it&#x27;s simplicity [&lt;em&gt;(I don&#x27;t credit him enough, this design it so brilliant.)&lt;&#x2F;em&gt;], but I added a bunch of complexities to it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;characterstics&quot;&gt;Characterstics&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Built with &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;zola&lt;&#x2F;a&gt; static site generator. [&lt;em&gt;Because it is rust, and is easy to install and use than hugo.&lt;&#x2F;em&gt;]&lt;&#x2F;li&gt;
+&lt;li&gt;Simple and uses my hand written CSS [...again! Inspired by &lt;a href=&quot;https:&#x2F;&#x2F;manuelmoreale.com&#x2F;thoughts&#x2F;welcome-to-manus-website&quot;&gt;Manu&#x27;s&lt;&#x2F;a&gt; blog.] and no JS.&lt;&#x2F;li&gt;
+&lt;li&gt;Has tags to categorize posts. [&lt;em&gt;Because, why not?&lt;&#x2F;em&gt;]&lt;&#x2F;li&gt;
+&lt;li&gt;Uses &lt;a href=&quot;https:&#x2F;&#x2F;webmention.io&#x2F;&quot;&gt;webmention.io&lt;&#x2F;a&gt; as the listener for webmentions.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;webmention.app&#x2F;docs#using-the-command-line&quot;&gt;webmention.app command line&lt;&#x2F;a&gt; and zola generated RSS feed for sending webmentions.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;pages&quot;&gt;GitHub Pages&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;actions&#x2F;concepts&#x2F;workflows-and-actions&#x2F;workflows&quot;&gt;GitHub Workflows&lt;&#x2F;a&gt; for hosting and checking the webmentions periodically.&lt;&#x2F;li&gt;
+&lt;li&gt;A custom style for [&lt;em&gt;&quot;inner voice&quot;&lt;&#x2F;em&gt;] which you can use while writing the post. &lt;code&gt;[_Hi_]&lt;&#x2F;code&gt; becomes [&lt;em&gt;Hi&lt;&#x2F;em&gt;].&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;[&lt;em&gt;Though I like to shit on GitHub for being a monopoly and for being Microsoft, I can&#x27;t deny the fact that they give free access to workflows and pages.&lt;&#x2F;em&gt;]&lt;&#x2F;p&gt;
+&lt;p&gt;Though the default CSS and layout is good, I encourage you to tweak the layouts [&lt;em&gt;(&#x2F;templates)&lt;&#x2F;em&gt;] and change the CSS to make it personal to you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;step-by-step-instructions&quot;&gt;Step by Step Instructions&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1. Fork and clone &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;scientiac&#x2F;blog.carboxide&#x2F;&quot;&gt;this&lt;&#x2F;a&gt; repo.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#eff1f5;color:#4f5b66;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;scientiac&#x2F;blog.carboxide
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2. Make it yours.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Edit &lt;code&gt;config.toml&lt;&#x2F;code&gt;  with your information [&lt;em&gt;getthing the URLs wrong will result in pages not linking properly&lt;&#x2F;em&gt;] and fill everything correctly.&lt;br &#x2F;&gt;
+[&lt;em&gt;Email is necessary for creating and verifying your indieweb account.&lt;&#x2F;em&gt;]&lt;&#x2F;li&gt;
+&lt;li&gt;Edit the &lt;code&gt;&#x2F;static&#x2F;CNAME&lt;&#x2F;code&gt; with your domain and replace &lt;code&gt;&#x2F;static&#x2F;thumbnail.png&lt;&#x2F;code&gt; with your profile picture.&lt;&#x2F;li&gt;
+&lt;li&gt;Make sure to install &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;zola&lt;&#x2F;a&gt; on your system and test the site locally using &lt;code&gt;zola serve&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Edit the files in &lt;code&gt;&#x2F;author&lt;&#x2F;code&gt; and &lt;code&gt;&#x2F;now&lt;&#x2F;code&gt; to write about yourself.&lt;&#x2F;li&gt;
+&lt;li&gt;If everyting is correct push the changes to the GitHub repo.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;[&lt;em&gt;In the config you can use themes for syntax highlighting from &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;configuration&#x2F;#syntax-highlighting&quot;&gt;the zola docs&lt;&#x2F;a&gt;.&lt;&#x2F;em&gt;]&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;3. Give GitHub actions the necessary permission to write to your repo.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Go to &lt;code&gt;Settings &amp;gt; Actions &amp;gt; General &amp;gt; Workflow permissions&lt;&#x2F;code&gt; and select &lt;code&gt;Read and write permissions&lt;&#x2F;code&gt;.&lt;br &#x2F;&gt;
+Re-run the workflow if it had failed previously.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;4. Run the workflow and then enable the pages.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+After the GitHub action successfully runs, go to &lt;code&gt;Settings &amp;gt; Pages &amp;gt; Build and Deployment&lt;&#x2F;code&gt; and select &lt;code&gt;Deploy from a branch&lt;&#x2F;code&gt; on &lt;code&gt;Source&lt;&#x2F;code&gt; and &lt;code&gt;gh-pages&lt;&#x2F;code&gt; &amp;amp; &lt;code&gt;\root&lt;&#x2F;code&gt; on Branch.
+Add your domain name to &lt;code&gt;Custom domain&lt;&#x2F;code&gt; if you have one.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;5. Check if the site is published.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Go to the website and see if everything is working properly. Only if your website is published go to the next step.
+Verify your &lt;code&gt;h-card&lt;&#x2F;code&gt; on &lt;a href=&quot;https:&#x2F;&#x2F;indiewebify.me&#x2F;validate-h-card&#x2F;&quot;&gt;indiewebify.me&lt;&#x2F;a&gt; and see if everything is correct.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;6. Make a webmention.io account.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Go to &lt;a href=&quot;https:&#x2F;&#x2F;webmention.io&quot;&gt;webmention.io&lt;&#x2F;a&gt; and put your website URL in there.
+It will automatically detect your email address. Then, verify your email to log in.
+Go to &lt;code&gt;settings &amp;gt; API Key&lt;&#x2F;code&gt; and copy it to your clipboard.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;7. Save your API secret on GitHub.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Go to GitHub &lt;code&gt;Settings &amp;gt; Secrets and variables &amp;gt; Actions &amp;gt; Repository secrets&lt;&#x2F;code&gt; and click on &lt;code&gt;New repository secret&lt;&#x2F;code&gt;.&lt;br &#x2F;&gt;
+Add &lt;code&gt;WEBMENTION_TOKEN&lt;&#x2F;code&gt; as the &lt;code&gt;Name&lt;&#x2F;code&gt; and the API key you copied as the &lt;code&gt;Secret&lt;&#x2F;code&gt; then click on &lt;code&gt;Add Secret&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;8. Add the proper workflows.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+After you have the page working and webmention.io set up. Remove the current workflow.&lt;br &#x2F;&gt;
+Then move the workflows directory from the root to &lt;code&gt;.github&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#eff1f5;color:#4f5b66;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#a7adba;&quot;&gt;# from the project root
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;rm -rf&lt;&#x2F;span&gt;&lt;span&gt; .&#x2F;.github&#x2F;workflows&#x2F;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;mv&lt;&#x2F;span&gt;&lt;span&gt; .&#x2F;workflows&#x2F; .&#x2F;.github&#x2F;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;And finally push the changes.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;9. Verify that everything is working correctly.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Check if all the GitHub actions run successfully and nothing fails.
+Verify everything in &lt;a href=&quot;https:&#x2F;&#x2F;indiewebify.me&quot;&gt;indiewebify.me&lt;&#x2F;a&gt;. [&lt;em&gt;It is fine if &lt;strong&gt;Syndicated Copies&lt;&#x2F;strong&gt; shows an error.&lt;&#x2F;em&gt;]&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;10. Finally write your posts.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Write your posts by making a markdown file in &lt;code&gt;&#x2F;content&lt;&#x2F;code&gt; with the proper header like in the example &lt;code&gt;&#x2F;content&#x2F;one.md&lt;&#x2F;code&gt;.&lt;br &#x2F;&gt;
+If you use Nix then use &lt;code&gt;direnv&lt;&#x2F;code&gt; to enable the nix shell which automatically installs zola for you. You also get a command called &lt;code&gt;now&lt;&#x2F;code&gt; that you can run to get the properly formatted datetime for the post.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;em&gt;If you write a post and try to push to the repo, it might fail because the workflow pulled the webmentions from webmentions.io and merged it to your repo. It is fine to force push to publish the changes. If not, then remember to pull and merge the changes before you push.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;sending-webmentions&quot;&gt;Sending Webmentions&lt;&#x2F;h2&gt;
+&lt;p&gt;In order to send Webmentions, the content should be formatted accordingly. In general I like to utilize three activities to send Webmentions.
+[&lt;em&gt;It is preferred to only use one activity for one mention.&lt;&#x2F;em&gt;]&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;mention&quot;&gt;Mention&lt;&#x2F;h3&gt;
+&lt;p&gt;One can mention a site using webmention by simply putting the link to the page being mentioned.
+The site will get the webmention if it supports it.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#eff1f5;color:#4f5b66;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;[I love learning things](https:&#x2F;&#x2F;faulty.carboxi.de&#x2F;learning&#x2F;)&lt;&#x2F;span&gt;&lt;span&gt; by faulty.
+&lt;&#x2F;span&gt;&lt;span&gt;or
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;href&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;faulty.carboxi.de&#x2F;learning&#x2F;&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;I love learning things&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt; by faulty.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;like&quot;&gt;Like&lt;&#x2F;h3&gt;
+&lt;p&gt;One can like a post using webmention by formatting the link as follows:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#eff1f5;color:#4f5b66;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;I like how faulty talks about learning in &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;class&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;u-like-of&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;href&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;faulty.carboxi.de&#x2F;learning&#x2F;&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;I love learning things&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;I like how faulty talks about learning in &lt;a class=&quot;u-like-of&quot; href=&quot;https:&#x2F;&#x2F;faulty.carboxi.de&#x2F;learning&#x2F;&quot;&gt;I love learning things&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;reply&quot;&gt;Reply&lt;&#x2F;h3&gt;
+&lt;p&gt;One can reply to a post by formatting the link and the text as follows:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#eff1f5;color:#4f5b66;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;class&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;u-in-reply-to&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;href&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;faulty.carboxi.de&#x2F;learning&#x2F;&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;I love learning things&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;I feel the same about learning. Nice writing faulty!
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;finally&quot;&gt;Finally&lt;&#x2F;h2&gt;
+&lt;p&gt;I made this to introduce people to webmentions and increase interactions using it. I encourage writing both goofy and serious stuff. [&lt;em&gt;And even stupid stuff.&lt;&#x2F;em&gt;] And most importantly I incourage people to customize the hell out of this base, changing and tweaking css and html without breaking the indieweb structure.&lt;&#x2F;p&gt;
+&lt;p&gt;[&lt;em&gt;Happy writing!&lt;&#x2F;em&gt;]&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Template</title>
+        <published>2014-03-14T15:09:26+05:45</published>
+        <updated>2014-03-14T15:09:26+05:45</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://template.carboxide.3o14.com/one/"/>
+        <id>https://template.carboxide.3o14.com/one/</id>
+        
+        <content type="html" xml:base="https://template.carboxide.3o14.com/one/">&lt;p&gt;This is a minimal zola static site setup with webmentions support using github workflows.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is the &lt;a href=&quot;https:&#x2F;&#x2F;flux.carboxi.de&#x2F;how-you-can-use-this-writing-setup&#x2F;&quot;&gt;tutorial&lt;&#x2F;a&gt; for setting this up for yourself.&lt;&#x2F;p&gt;
+&lt;p&gt;And this is the link to the source code of this setup on GitHub: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;scientiac&#x2F;blog.carboxide&quot;&gt;scientiac&#x2F;blog.carboxide&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;sites-using-this-setup&quot;&gt;Sites using this setup.&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;flux.carboxi.de&quot;&gt;flux.carboxi.de&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;faulty.carboxi.de&quot;&gt;faulty.carboxi.de&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h1 id=&quot;h1-heading&quot;&gt;h1 Heading&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;h2-heading&quot;&gt;h2 Heading&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;h3-heading&quot;&gt;h3 Heading&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;h4-heading&quot;&gt;h4 Heading&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;h5-heading&quot;&gt;h5 Heading&lt;&#x2F;h5&gt;
+&lt;h6 id=&quot;h6-heading&quot;&gt;h6 Heading&lt;&#x2F;h6&gt;
+&lt;h2 id=&quot;horizontal-rules&quot;&gt;Horizontal Rules&lt;&#x2F;h2&gt;
+&lt;pre style=&quot;background-color:#eff1f5;color:#4f5b66;&quot;&gt;&lt;code&gt;&lt;span&gt;---
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;hr &#x2F;&gt;
+&lt;pre style=&quot;background-color:#eff1f5;color:#4f5b66;&quot;&gt;&lt;code&gt;&lt;span&gt;***
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;emphasis&quot;&gt;Emphasis&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;This is bold text&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;This is bold text&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;This is italic text&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;This is italic text&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;del&gt;Strikethrough&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;[&lt;em&gt;This is handwriting.&lt;&#x2F;em&gt;]&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Blockquotes can also be nested...&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...by using additional greater-than signs right next to each other...&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...or with spaces between arrows.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;&#x2F;h2&gt;
+&lt;p&gt;Unordered&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a list by starting a line with &lt;code&gt;+&lt;&#x2F;code&gt;, &lt;code&gt;-&lt;&#x2F;code&gt;, or &lt;code&gt;*&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Sub-lists are made by indenting 2 spaces:
+&lt;ul&gt;
+&lt;li&gt;Marker character change forces new list start:
+&lt;ul&gt;
+&lt;li&gt;Ac tristique libero volutpat at&lt;&#x2F;li&gt;
+&lt;li&gt;Facilisis in pretium nisl aliquet&lt;&#x2F;li&gt;
+&lt;li&gt;Nulla volutpat aliquam velit&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Very easy!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Ordered&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Consectetur adipiscing elit&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Integer molestie lorem at massa&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;You can use sequential numbers...&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;...or keep all the numbers as &lt;code&gt;1.&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Start numbering with offset:&lt;&#x2F;p&gt;
+&lt;ol start=&quot;57&quot;&gt;
+&lt;li&gt;foo&lt;&#x2F;li&gt;
+&lt;li&gt;bar&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;&#x2F;h2&gt;
+&lt;p&gt;Inline &lt;code&gt;code&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Indented code&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#eff1f5;color:#4f5b66;&quot;&gt;&lt;code&gt;&lt;span&gt;&#x2F;&#x2F; Some comments
+&lt;&#x2F;span&gt;&lt;span&gt;line 1 of code
+&lt;&#x2F;span&gt;&lt;span&gt;line 2 of code
+&lt;&#x2F;span&gt;&lt;span&gt;line 3 of code
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Block code &quot;fences&quot;&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#eff1f5;color:#4f5b66;&quot;&gt;&lt;code&gt;&lt;span&gt;Sample text here...
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Syntax highlighting&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;js&quot; style=&quot;background-color:#eff1f5;color:#4f5b66;&quot; class=&quot;language-js &quot;&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;var &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;foo &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;function &lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;bar&lt;&#x2F;span&gt;&lt;span&gt;) {
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;bar&lt;&#x2F;span&gt;&lt;span&gt;++;
+&lt;&#x2F;span&gt;&lt;span&gt;};
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;console&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;foo&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span&gt;));
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Option&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;data&lt;&#x2F;td&gt;&lt;td&gt;path to data files to supply the data that will be passed into templates.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;engine&lt;&#x2F;td&gt;&lt;td&gt;engine to be used for processing templates. Handlebars is the default.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ext&lt;&#x2F;td&gt;&lt;td&gt;extension to be used for dest files.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;Right aligned columns&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: right&quot;&gt;Option&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;data&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;path to data files to supply the data that will be passed into templates.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;engine&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;engine to be used for processing templates. Handlebars is the default.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;ext&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;extension to be used for dest files.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;dev.nodeca.com&quot;&gt;link text&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;nodeca.github.io&#x2F;pica&#x2F;demo&#x2F;&quot; title=&quot;title text!&quot;&gt;link with title&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Autoconverted link &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nodeca&#x2F;pica&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;nodeca&#x2F;pica&lt;&#x2F;a&gt; (enable linkify to see)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;images&quot;&gt;Images&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;octodex.github.com&#x2F;images&#x2F;minion.png&quot; alt=&quot;Minion&quot; &#x2F;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;octodex.github.com&#x2F;images&#x2F;stormtroopocat.jpg&quot; alt=&quot;Stormtroopocat&quot; title=&quot;The Stormtroopocat&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Like links, Images also have a footnote style syntax&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;octodex.github.com&#x2F;images&#x2F;dojocat.jpg&quot; alt=&quot;Alt text&quot; title=&quot;The Dojocat&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;With a reference later in the document defining the URL location:&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
